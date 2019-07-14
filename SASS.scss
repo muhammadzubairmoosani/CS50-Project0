@@ -53,12 +53,12 @@ ul > li {
   }
 }
 
-h1 {
+#topHeading {
 	position: relative;
 	margin-top: 20px;
 	font-family: 'Cardo', serif;
-}
-h1.one {
+} 
+#topHeading.one {
 	background: -moz-linear-gradient(#ffffff 0%, #ffffff 49%, #000000 50%, #000000 51%, #ffffff 52%, #ffffff 100%);
 	background: -ms-linear-gradient(#ffffff 0%, #ffffff 49%, #000000 50%, #000000 51%, #ffffff 52%, #ffffff 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #ffffff), color-stop(50%, #000000), color-stop(51%, #000000), color-stop(52%, #ffffff), color-stop(100%, #ffffff));
@@ -66,7 +66,7 @@ h1.one {
 	background: -o-linear-gradient(#ffffff 0%, #ffffff 49%, #000000 50%, #000000 51%, #ffffff 52%, #ffffff 100%);
 	background: linear-gradient(#ffffff 0%, #ffffff 49%, #000000 50%, #000000 51%, #ffffff 52%, #ffffff 100%);
 }
-h1.one span {
+#topHeading.one span {
 	background: #fff;
 	padding: 0 20px;
 	position: relative;
